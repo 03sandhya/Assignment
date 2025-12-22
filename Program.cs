@@ -23,6 +23,7 @@ app.UseAuthorization();
 app.UseStaticFiles();
 app.MapRazorPages();
   
-app.MapGet("/", () => "Hello from .NET application running on wsl");
+app.MapGet("/", () => "Hello, This is a sample application");
 app.Run();
+
 
